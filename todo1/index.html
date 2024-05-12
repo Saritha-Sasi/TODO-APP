@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App List</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+    .navbar
+    {
+        padding: 1rem 1rem;
+    }
+    .nav-item a {
+    color: #000;
+    padding: 19px 33px;
+    }
+    #todo-list li {
+    list-style: none;
+}
+</style>
+<body>
+    <div class="col-lg-4 m-auto">
+  <div id="login-container">
+    <form id="login-form">
+        <h1>Login</h1>
+ 
+        <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" class="form-control" id="username" name="username" required >
+      </div>
+      <div class="form-group">
+       <label for="password">Password:</label>
+      <input type="password" class="form-control"  id="password" name="password" required>
+      </div>
+ 
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+  </div>
+  </div>
+  <div id="main-container" style="display: none;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       
+      <ul class="navbar-nav mr-auto">
+        <li  class="nav-item"><a href="#" id="todo-list-link">Todo List</a></li>
+        <li  class="nav-item"><a href="#" id="logout-link">Logout</a></li>
+      </ul>
+    </nav>
+ 
+ 
+ 
+    <div id="todo-list"></div>
+  </div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
+<div class="card-three-columns">
+    <div class="card-three-columns--item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, deserunt aperiam. Assumenda veniam incidunt qui corporis, fugit quibusdam possimus perferendis sapiente quaerat doloribus natus cumque optio in ut beatae eveniet!</div>
+    <div class="card-three-columns--item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate natus facere mollitia adipisci rerum. Ipsa atque error temporibus dolore. Quo accusamus iusto dicta quis doloremque, officia at quos sapiente? Sed!</div>
+    <div class="card-three-columns--item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae modi dolor vitae officia unde eum, non pariatur, cum enim adipisci ipsa. Voluptatum placeat et, iste dignissimos magnam soluta minus distinctio!</div>
+</div>
